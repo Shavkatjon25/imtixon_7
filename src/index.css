@@ -1,0 +1,254 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-h3{
+  font-family: Kumbh Sans;
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.main_1{
+  color: #FF7E1B;
+  font-family: "Kumbh Sans";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+.main_2{
+  color: #1D2026;
+  font-family: "Kumbh Sans";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem; 
+}
+.main_3{
+  color: #69707D;
+  font-family: "Kumbh Sans";
+  font-size: 0.938rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.563rem; /* 166.667% */
+}
+.b125{
+  color: #1D2026;
+  font-family: "Kumbh Sans";
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.b50{
+  color: #FF7E1B;
+font-family: "Kumbh Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: #FFEEE2;
+}
+.b250{
+  color: #B6BCC8;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+  text-decoration-line:line-through;
+}
+.add{
+  color: #FFF;
+  font-family: "Kumbh Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+}
+.modal{
+  background: rgba(0, 0, 0, 0.75);
+}
+.modal_h2{
+  color: #1D2026;
+  font-family: "Kumbh Sans";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 144.444% */
+}
+
+.animeshn{
+  animation: spin 300ms linear;
+}
+
+
+@keyframes spin {
+  from {
+    
+  width: 0;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.modalCart{
+  font-family: Kumbh Sans;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;  
+}
+
+.fall{
+  color: #69707D;
+  font-family: "Kumbh Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; 
+}
+
+.null{
+  color: #69707D;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+
+.animesh{
+  animation: spinn 200ms linear;
+}
+
+
+@keyframes spinn {
+  from {
+  top: -95px;
+  width: -100%;
+  margin-left: 33%;
+  transform: scale(0);
+  opacity: 0;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.activ{
+  border: 2px solid #FF7E1B;
+  opacity: 0.75;
+    
+}
+
+.mySwiper2{
+  width: 445px;
+  margin-bottom: 50px;
+}
+.mySwiper{
+  width: 445px;
+}
+.mySwiper img{
+  width: 88px;
+  height: 88px;
+  z-index: 150;
+  border-radius: 10px;
+}
+
+
+
+
+
+.mySwiper .swiper-slide-thumb-active img {
+  opacity: 0.4;
+  height: 88px;
+  width: 88px;
+  border-radius: 10px;
+  border: 2px solid #FF7E1B;
+}
+
+.header-des{
+  color: #69707D;
+  font-family: "Kumbh Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  display: inline-block;
+}
+
+.aftr h3::before{
+  content:'';
+  position: absolute;
+  top: 80px;
+  height: 1px;
+  background: #000;
+}
+.shdw{
+  box-shadow: 0px 20px 50px -20px rgba(29, 32, 38, 0.50);
+}
+
+.qzil:hover div{
+  background: red;
+}
+.mySwiper2  .swiper-button-prev,
+.mySwiper2  .swiper-button-next {
+  background-color: white;
+  width: 56px;
+  top: 42%;
+  --swiper-navigation-color:black;
+  --swiper-navigation-size: 16px;
+  height: 56px;
+  border: 1px solid gray;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 100;
+}
+.mySwiper2  .swiper-button-prev{
+  margin-left: 33%;
+}
+.mySwiper2  .swiper-button-next{
+  margin-right: 33%;
+}
+.mySwiper2 .swiper-wrapper {
+  width: calc((300px * 3) + 17px);
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+}
+
+.nav-btn {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  user-select: none;
+  -webkit-user-select: none;
+
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 5px;
+  
+}
+
+.nav-btn.custom-prev-button {
+  top: 27%;
+  left: 1em;
+}
+
+.nav-btn.custom-next-button {
+  right: 1em;
+  top: 27%;
+}
